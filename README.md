@@ -270,3 +270,12 @@ python src/forecast_backtest.py
 The backtest reports MAE, RMSE and WAPE across earlier synthetic terms. Each test-term prediction uses only earlier terms; target-term interest is excluded from its own prediction. These metrics measure fit to synthetic registration-interest counts, **not actual student enrollment or real-world forecast accuracy**.
 
 `src/business_rules.py` contains reusable rule checks for skill eligibility, workload, capacity, prerequisite ordering, duplicate assignments and lifecycle transitions. `tests/test_business_rules.py` exercises valid and invalid cases. The append-only SQL triggers on `PlanningEvent` prevent updates and deletes; a new event row is required to record a state change.
+
+## Documentation
+
+- [ER Diagram](docs/ER_Diagram.pdf)
+- [Data Dictionary](docs/data_dictionary.md)
+- [Validation Report](docs/validation_report.md)
+- [Anomaly Evaluation](docs/anomaly_evaluation.md)
+- [Specification Audit](docs/final_specification_audit.md)
+- [AI-Assisted Development & Prompt Engineering](docs/AI_ASSISTED_DEVELOPMENT.md)
