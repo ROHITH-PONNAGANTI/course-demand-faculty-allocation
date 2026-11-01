@@ -1,0 +1,24 @@
+{
+  "seed": 20261022,
+  "scale": "starter",
+  "terms": ["2025S1", "2025S2", "2026S1", "2026S2", "2027S1"],
+  "target_term": "2027S1",
+  "starter": {
+    "programs": 10,
+    "courses": 100,
+    "faculty": 50,
+    "student_plans": 1000,
+    "rooms": 20
+  },
+  "full": {
+    "programs": 100,
+    "courses": 1000,
+    "faculty": 500,
+    "student_plans": 20000,
+    "rooms": 200
+  },
+  "section_capacity_default": 40,
+  "max_sections_per_course": 12,
+  "forecast_weights": [0.50, 0.30, 0.20],
+  "max_weekly_workload_hours": 18
+}

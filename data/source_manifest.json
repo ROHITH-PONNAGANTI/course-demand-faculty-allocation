@@ -1,0 +1,19 @@
+{
+  "seed": 20261022,
+  "scale": "full",
+  "target_term": "2027S1",
+  "row_counts": {
+    "Program": 100,
+    "Course": 1000,
+    "Prerequisite": 76,
+    "StudentPlan": 20000,
+    "StudentCourseHistory": 1497,
+    "RegistrationInterest": 47467,
+    "Faculty": 500,
+    "FacultySkill": 1500,
+    "Availability": 2500,
+    "Room": 200
+  },
+  "generator": "src/generate_data.py",
+  "provenance": "Fully synthetic; no personal or external data."
+}

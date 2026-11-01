@@ -1,0 +1,3 @@
+# No third-party Python packages required.
+# The Python pipeline uses the standard library.
+# MySQL 8.0+ is required separately for database persistence.

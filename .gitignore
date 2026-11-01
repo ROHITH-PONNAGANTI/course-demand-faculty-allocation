@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+data/*.csv
+outputs/*.csv
+outputs/*.json
+!data/.gitkeep
+!outputs/.gitkeep
+
+src/*_backup.py
+src/*_before_*.py
